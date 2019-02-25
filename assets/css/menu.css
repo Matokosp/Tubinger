@@ -21,8 +21,8 @@
 }
 
 .menu__responsive--hidden{
-  width: 300px;
-  left: -305px;
+  width: 250px;
+  left: -255px;
   height: 100vh;
   position: fixed;
   top: 0px;
@@ -69,6 +69,21 @@
 	margin: 0 auto;
 }
 
+.menures-tienda-link {
+	font-family: 'Lato', sans-serif;
+  	font-weight: 700;
+	background-color: #D31F26;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.7em;
+	padding: 10px;
+	position: absolute;
+	bottom: 110px;
+	width: 80%;
+	left: 10%;
+}
+
 .slogan-img {
 	position: absolute;
 	width: 45%;
@@ -88,7 +103,7 @@
 }
 
 .hamburguer-slide {
-  left: 250px;
+  left: 200px;
 }
 
 .hamburger__section-icon {
@@ -99,6 +114,32 @@
   transition: all .8s cubic-bezier(.19,1,.22,1);
   border-radius: 30%;
   /*float: right;*/
+}
+
+.menures_right-icon {
+	float: right;
+	margin-top: 12.5px;
+}
+
+.menures_right-icon a {
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+  	font-weight: 700;
+	background-color: #D31F26;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	padding: 5px;
+	margin-right: 5vw;
+	border-radius: 3px;
+/*	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;*/
+}
+
+.menures_right-icon img {
+	display: inline-block;
+	width: 25px;	
 }
 
 @media (min-width: 992px) {
