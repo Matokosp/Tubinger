@@ -22,6 +22,12 @@ ul {
   list-style-type: none;
 }
 
+.shadowed {
+	filter: url(#drop-shadow);
+	-webkit-filter: drop-shadow(9px 9px 7px rgba(0,0,0,0.6));
+	filter: drop-shadow(9px 9px 7px rgba(0,0,0,0.6));
+}
+
 .mi-contenedor {
   max-width: 2000px;
 }
@@ -49,29 +55,29 @@ ul {
 }
 
 .featured {
-	/*background-image: url('../images/destacada-bkg.jpg');*/
-	/*height: 948px;*/
-	/*background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center center;
-	text-align: center;*/
 	position: relative;
 }
 
-.featured-bkg {
+.featured__img-bkg {
 	width: 100%;
-	position: relative;
 }
 
-.featured-beer {
+.featured__img-beer {
 	width: 40%;
 	position: absolute;
 	top: -60px;
 	left: 30%;	
 }
 
-.shadowed {
-	filter: url(#drop-shadow);
-	-webkit-filter: drop-shadow(9px 9px 7px rgba(0,0,0,0.6));
-	filter: drop-shadow(9px 9px 7px rgba(0,0,0,0.6));
+.featured-description {
+	position: relative;
+	background-color: #3DBED5;
+	text-align: center;
+	color: #fff;
+	padding: 10vh 10vw;
+}
+
+.featured-description h2 {
+	text-transform: uppercase;
+	margin-top: 0;
 }
