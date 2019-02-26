@@ -6,7 +6,6 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
-	background-color: green;
 }
 
 h1, h2, h3, h4 {
@@ -25,4 +24,54 @@ ul {
 
 .mi-contenedor {
   max-width: 2000px;
+}
+
+.front {
+	background-image: url('../images/home-bkg.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	position: relative;
+}
+
+.home-logo {
+	margin-top: 33vh;
+	width: 70%;
+}
+
+.home-slogan {
+	position: absolute;
+	width: 30%;
+	bottom: 20vh;
+	left: 35%;
+}
+
+.featured {
+	/*background-image: url('../images/destacada-bkg.jpg');*/
+	/*height: 948px;*/
+	/*background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;*/
+	position: relative;
+}
+
+.featured-bkg {
+	width: 100%;
+	position: relative;
+}
+
+.featured-beer {
+	width: 40%;
+	position: absolute;
+	top: -60px;
+	left: 30%;	
+}
+
+.shadowed {
+	filter: url(#drop-shadow);
+	-webkit-filter: drop-shadow(9px 9px 7px rgba(0,0,0,0.6));
+	filter: drop-shadow(9px 9px 7px rgba(0,0,0,0.6));
 }
