@@ -60,3 +60,20 @@
 }
 
 }
+
+
+@media (min-width: 1200px) {
+
+.home-logo {
+	margin-top: 20vh;
+	width: 30%;
+}
+
+.home-slogan {
+	position: absolute;
+	width: 15%;
+	bottom: 18vh;
+	left: 42.5%;
+}
+
+}
