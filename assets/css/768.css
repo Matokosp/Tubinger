@@ -25,18 +25,38 @@
 
 .locales__link {
 	background-color: #FAF8F2;
-	text-align: center;
+	text-align: left;
 	position: relative;
-	padding: 5vh 10vw 10vh 10vw;
+	padding: 30px 10vw;
+	text-align: center;
 }
 
 .locales__link img {
+	text-align: left;
 	width: 150px;
-	padding: 5vh 0;
+	padding: 0 0;
+	vertical-align: middle;
+}
+
+.locales__link-section {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	text-align: right;
 }
 
 .locales__link h3 {
 	text-transform: uppercase;
+	display: inline-block;
+	width: 50%;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.locales__link a {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
 }
 
 }

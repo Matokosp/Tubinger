@@ -32,6 +32,7 @@ ul {
 
 .mi-contenedor {
   max-width: 2000px;
+  margin: 0 auto;
 }
 
 .front {
