@@ -11,6 +11,7 @@ body {
 h1, h2, h3, h4 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 900;
+	line-height: 1.1em;
 }
 
 a {
@@ -57,6 +58,11 @@ ul {
 
 .featured {
 	position: relative;
+}
+
+.featured__img {
+	position: relative;
+	display: grid;
 }
 
 .featured__img-bkg {
@@ -106,9 +112,28 @@ ul {
 .quality {
 	background-image: url('../images/quality-bkg.jpg');
 	background-size: cover;
-	height: 80vh;
-	padding: 5vh 10vw;
+	padding: 0 10vw;
 	position: relative;
+}
+
+.full-block {
+	padding: 10vh 0 15vh 0;
+}
+
+.section__title p {
+	margin-bottom: 50px;
+	letter-spacing: 0.5px;
+}
+
+.link__button {
+	color: #fff;
+	background-color: #D31F26;
+	border-radius: 2px;
+	padding: 10px 20px;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	letter-spacing: 1px;
 }
 
 .white-text {
@@ -122,39 +147,103 @@ ul {
 }
 
 .video__square {
-	position: absolute;
-	width: 80%;
+	display: none;
+	/*width: 80%;
 	bottom: 30px;
 	left: 10%;
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 	height: 30vh;
 	text-align: center;
-	padding-top: 12.5vh;
-}
-
-.link__button {
-	color: #fff;
-	background-color: #D31F26;
-	font-family: 'Lato', sans-serif;
-	padding: 5px 10px;
-	text-transform: uppercase;
-	font-size: 0.9em;
-	letter-spacing: 1px;
+	padding-top: 12.5vh;*/
 }
 
 .tour {
 	background-image: url('../images/tour-bkg.jpg');
 	background-size: cover;
-	height: 80vh;
-	padding: 5vh 10vw;
+	padding: 0 10vw;
 	position: relative;
 }
 
-.tour span {
-	display: inline-block;
-	margin-top: 15vh;
-}
+/*LOCALES BAND*/
 
 .locales__link {
 	background-color: #FAF8F2;
+	text-align: center;
+	position: relative;
+	padding: 5vh 10vw 10vh 10vw;
+}
+
+.locales__link img {
+	width: 150px;
+	padding: 5vh 0;
+}
+
+.locales__link h3 {
+	text-transform: uppercase;
+}
+
+/*FOOTER*/
+
+.footer {
+	background-color: #8CBA37;
+	padding: 5vh 10vw;
+	text-align: center;
+}
+
+.footer__logo {
+	width: 170px;
+}
+
+.contact h2 {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/*CONTACT FORM*/
+
+.contact__form {
+	text-align: right;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #D31F26;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.4);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer__rrss {
+	margin-top: 60px;
+}
+
+.footer__rrss img {
+	width: 45px;
+	margin: 0 15px;
+}
+
+.footer__rrss-separation {
+	width: 80%;
+	margin: 0 auto;
+	height: 1px;
+	background-color: #fff;
+	margin-top: 15px;
+}
+
+.footer__rrss p {
+	color: #fff;
+	font-size: 0.75em;
 }

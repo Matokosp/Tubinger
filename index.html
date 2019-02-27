@@ -8,6 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:700,900|Roboto" rel="stylesheet">
 	<!-- MY STYLE -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/768.css">
 	<!-- MENU -->
 	<link rel="stylesheet" type="text/css" href="assets/css/menu.css">
 </head>
@@ -78,28 +79,56 @@
 			</div>
 		</section>
 		<section class="quality">
-			<div class="section__title white-text">
-				<h2>NOS PREOCUPAMOS POR LA CALIDAD</h2>
-				<div class="title__separation"></div>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-			</div>
-			<div class="video__square">
-				<a class="link__button">ver video</a>
+			<div class="full-block">
+				<div class="section__title white-text">
+					<h2>NOS PREOCUPAMOS POR LA CALIDAD</h2>
+					<div class="title__separation"></div>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+				</div>
+				<span class="link__button">ver video</span>
+				<div class="video__square">
+					<a class="link__button">ver video</a>
+				</div>
 			</div>
 		</section>
 		<section class="tour">
-			<div class="section__title white-text">
-				<h2>TOMA UN TOUR POR NUESTRAS INSTALACIONES</h2>
-				<div class="title__separation"></div>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+			<div class="full-block">
+				<div class="section__title white-text">
+					<h2>TOMA UN TOUR POR NUESTRAS INSTALACIONES</h2>
+					<div class="title__separation"></div>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+				</div>
+				<span class="link__button">inscríbete</span>
 			</div>
-			<span class="link__button">inscríbete</span>
 		</section>
 		<section class="locales__link">
 			<img src="assets/images/slogan.png">
-			<h3>encuéntranos en el local más cercano</h3>
-			<a class="link__button" href="locations.html">ver locales</a>
+			<div class="locales__link-section">
+				<h3>encuéntranos en el local más cercano</h3>
+				<a class="link__button" href="locations.html">ver locales</a>
+			</div>
 		</section>
+		<footer class="footer">
+			<img class="footer__logo" src="assets/images/logo-oso.png">
+			<div class="contact">
+				<h2>¿tienes una pregunta?</h2>
+				<form class="contact__form" action="send_mail.php">
+					<input type="text" id="fname" name="firstname" placeholder="Nombre">
+
+					<input type="text" id="lname" name="mail" placeholder="E-mail">
+
+					<textarea id="subject" name="subject" placeholder="Mensaje" style="height:200px"></textarea>
+
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			<div class="footer__rrss">
+				<a href="https://www.facebook.com/cervezatubinger/"><img src="assets/images/fb-logo.png"></a>
+				<a href="https://www.instagram.com/cerveza_tubinger/"><img src="assets/images/ig-logo.png"></a>
+				<div class="footer__rrss-separation"></div>
+				<p>2019 Cervecería Tübinger SPA.</p>
+			</div>
+		</footer>
 	</div>
 
 	<!-- jQuery -->
