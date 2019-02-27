@@ -206,6 +206,7 @@ ul {
 }
 
 input[type=text], select, textarea {
+	-webkit-appearance: none;
   width: 100%;
   padding: 12px;
   box-sizing: border-box;
@@ -215,6 +216,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
+	-webkit-appearance: none;
   background-color: #D31F26;
   text-transform: uppercase;
   letter-spacing: 1px;
