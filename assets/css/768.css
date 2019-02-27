@@ -76,4 +76,70 @@
 	left: 42.5%;
 }
 
+.featured {
+	background-color: #3DBED5;
+}
+
+.featured__img {
+	display: inline-block;
+	position: relative;
+	/*display: grid;*/
+	width: 50%;
+	/*float: left;*/
+}
+
+.featured__img-bkg {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 90vh;
+}
+
+.featured__img-beer {
+	width: 35%;
+	position: absolute;
+	top: 0px;
+	left: 32.5%;
+	z-index: 10;
+}
+
+.featured__description {
+	display: inline-block;
+	width: 49%;
+	background-color: #3DBED5;
+	text-align: center;
+	color: #fff;
+	/*float: left;*/
+	padding: 15vh 10vw;
+	vertical-align: top;
+}
+
+.full-block {
+	padding: 30vh 0;
+}
+
+.section__title {
+	width: 40%;
+}
+
+.section__title p {
+	margin-bottom: 45px;
+	letter-spacing: 0.5px;
+}
+
+}
+
+@media (min-width: 1440px) {
+
+.featured__img {
+	width: 50%;
+}
+
+.featured__description {
+	text-align: left;
+	padding: 20vh 10vw;
+	width: 49%;
+}
+
+
 }
