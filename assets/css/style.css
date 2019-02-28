@@ -332,16 +332,21 @@ input[type=submit] {
 	margin-top: 40px;
 }
 
-.beer-info-black-block {
+.black-block {
+	visibility: hidden;
+	opacity: 0;
 	position: absolute;
 	top: 0;
 	left: 0;
 	background-color: rgba(0,0,0,0.5);
 	width: 100%;
 	height: 100%;
+	transition: 0.5s;
 }
 
 .beer_info_block {
+	visibility: hidden;
+	opacity: 0;
 	background-color: rgba(0,0,0,0.8);
 	color: #fff;
 	text-align: center;
@@ -351,6 +356,12 @@ input[type=submit] {
 	top: 10%;
 	left: 5%;
 	height: 80%;
+	transition: 1s;
+}
+
+.beer-info-visible {
+	visibility: visible;
+	opacity: 1;
 }
 
 .beer_info_block h3 {

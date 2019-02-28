@@ -23,3 +23,27 @@
 		}		
 		console.log(e.target)
 	})
+
+
+// BEER POP UP
+
+	var button = $('#beer-button');
+	var blackBlock = $('#black-block');
+	var beerInfo = $('#beer_info_block');
+
+	$(button).on('click', function(e){
+		$(this).parent().siblings(blackBlock).addClass('beer-info-visible');
+		$(this).parent().siblings(beerInfo).addClass('beer-info-visible');
+		e.stopPropagation();
+	})
+
+	window.addEventListener('click', function(e){
+		if ( blackBlock.hasClass('beer-info-visible') && e.target.className != 'beer_info_block') {
+			blackBlock.removeClass('beer-info-visible');
+			beerInfo.removeClass('beer-info-visible');
+			e.stopPropagation();
+		}
+
+	})
+
+	
