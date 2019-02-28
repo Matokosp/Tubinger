@@ -400,17 +400,72 @@ input[type=submit] {
 /*PAGINA NOSOTROS*/
 
 .about__front {
+	position: relative;
 	height: 100vh;
 	background-color: #FAF8F2;
 	text-align: center;
 	padding: 0 10vw;
 }
 
-.about__front img {
+.about_front_logo {
 	width: 60%;
-	padding-top: 20vh;
+	padding-top: 15vh;
 }
 
 .about__front h2 {
 	text-transform: uppercase;
+}
+
+.about__front p {
+	font-size: 0.9em;
+}
+
+.about_front_slogan {
+	width: 40%;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.staff__title {
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+}
+
+.staff__title {
+	text-transform: uppercase;
+	padding: 15px 0;
+	font-size: 1.5em;
+}
+
+.staff__card {
+	background-color: #FAF8F2;
+	margin-bottom: 50px;
+}
+
+.staff__card-profile {
+	width: 100%;
+}
+
+.staff__card h3 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+.staff__card-text {
+	padding: 10px 10%;
+}
+
+.staff__card-text-separation {
+	background-color: #000;
+	height: 3px;
+	width: 30%;
+	margin: 0 auto;
+}
+
+.linkedin-logo {
+	display: block;
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 50px;
 }
