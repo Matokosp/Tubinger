@@ -252,3 +252,38 @@ input[type=submit] {
 	color: #fff;
 	font-size: 0.75em;
 }
+
+
+
+/*BEER PAGE*/
+
+.beer__front {
+	background-image: url('../images/beer-bkg.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	text-align: center;
+	position: relative;
+}
+
+.beer__front img {
+	padding-top: 75vh;
+	width: 45%;
+}
+
+.down-arrow {
+	background-color: #D31F26;
+	border-radius: 50%;
+	display: block;
+	width: 40px;
+	height: 40px;
+	padding: 8px;
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+}
+
+.fa-arrow-down {
+	color: #fff;
+}
