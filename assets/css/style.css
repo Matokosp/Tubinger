@@ -469,3 +469,33 @@ input[type=submit] {
 	padding: 20px 0;
 	width: 50px;
 }
+
+.team {
+	background-color: #000;
+	color: #fff;
+	padding: 30px 8vw;
+	text-align: center;
+}
+
+.team h2 {
+	text-transform: uppercase;
+}
+
+.team p {
+	margin-bottom: 30px;
+}
+
+.rrss {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.rrss h2 {
+	text-transform: uppercase;
+	padding: 0 10vw;
+}
+
+.rrss img {
+	width: 100%;
+	display: flex;
+}

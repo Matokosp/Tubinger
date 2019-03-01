@@ -8,6 +8,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:700,900|Roboto" rel="stylesheet">
 	<!-- FONT AWESOME -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<!-- FLEXSLIDER -->
+    <link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen"/>
 	<!-- MY STYLE -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/768.css">
@@ -133,6 +135,35 @@
 				<a href=""><img class="linkedin-logo" src="assets/images/linkedin-logo.png"></a>
 			</article>
 		</section>
+		<section class="team">
+			<div class="team__text">
+				<h2>un equipo comprometido</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="flexslider team__slider">
+				<ul class="slides">
+					<li>
+						<img src="assets/images/equipo.jpg">
+					</li>
+					<li>
+						<img src="assets/images/equipo.jpg">
+					</li>
+					<li>
+						<img src="assets/images/equipo.jpg">
+					</li>
+				</ul>
+	        </div>	
+		</section>
+		<section class="rrss">
+			<h2>encuentranos en nuestras redes sociales</h2>
+			<a href="https://www.facebook.com/cervezatubinger/"><img src="assets/images/fb-oso.jpg"></a>
+			<a href="https://www.instagram.com/cerveza_tubinger/"><img src="assets/images/ig-oso.jpg"></a>
+		</section>
 
 		<section class="locales__link">
 			<img src="assets/images/slogan.png">
@@ -168,6 +199,18 @@
 	<!-- jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+	<!-- FlexSlider -->
+	<script defer src="assets/js/jquery.flexslider.js"></script>
+		<script type="text/javascript">
+		$(window).load(function(){
+		  $('.flexslider').flexslider({
+		    animation: "slide",
+		    start: function(slider){
+		      $('body').removeClass('loading');
+		    }
+		  });
+		});
+	</script>
 	<!-- MY SCRIPT -->
 	<script defer src="assets/js/myscript.js"></script>
 </body>
