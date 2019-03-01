@@ -58,6 +58,30 @@
 	display: inline-block;
 }
 
+/*LOCATIONS PAGE*/
+
+.locations__front {
+	padding: 0 15vw;
+}
+
+.locations__front h2 {
+	padding-top: 40vh;
+}
+
+.bars {
+	text-align: center;
+	padding: 30px 0;
+}
+
+.bars__item {
+	width: 45%;
+	margin: 0 1% 30px 1%;
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	text-align: left;
+}
+
 }
 
 @media (min-width: 992px) {
@@ -119,6 +143,16 @@
 	vertical-align: middle;
 }
 
+/*LOCATIONS PAGE*/
+
+.locations__front h2 {
+	font-size: 2.8em;
+}
+
+.locations__front p {
+	font-size: 1.3em;
+}
+
 }
 
 
@@ -137,7 +171,7 @@
 }
 
 .featured {
-	background-color: #3DBED5;
+	background-color: #91B524;
 }
 
 .featured__img {
@@ -166,7 +200,6 @@
 .featured__description {
 	display: inline-block;
 	width: 49%;
-	background-color: #3DBED5;
 	text-align: center;
 	color: #fff;
 	/*float: left;*/
@@ -247,7 +280,7 @@
 .about__front p {
 	margin: 0 auto;
 	font-size: 1em;
-	width: 40%;
+	width: 100%;
 }
 
 .about_front_slogan {
@@ -256,19 +289,47 @@
 	margin-top: 80px;
 }
 
+.staff__card-container {
+	display: flex;
+}
+
 .staff__card {
 	margin: 20px 1%;
 	width: 22%;
 	display: inline-block;
 	box-shadow: 3px 3px 20px rgba(0,0,0,0.2)
+	flex: 1;
 }
 
 .staff__card-text {
-	font-size: 0.9em;
+	font-size: 0.85em;
 }
 
 .team {
 	padding: 140px 8vw;
+}
+
+/*LOCATIONS PAGE*/
+
+.locations__front {
+	padding: 0 30vw;
+}
+
+.locations__front h2 {
+	padding-top: 35vh;
+}
+
+.bars {
+	padding: 40px 0;
+}
+
+.bars__item {
+	width: 30%;
+	margin: 0 1% 30px 1%;
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	text-align: left;
 }
 
 }
@@ -342,6 +403,37 @@
 	/*float: left;*/
 	padding: 25vh 15vw;
 	vertical-align: top;
+}
+
+/*ABOUT PAGE*/
+
+.about__front {
+	height: 100vh;
+}
+
+.about_front_slogan {
+	width: 15%;
+	display: inline-block;
+	margin: 50px;
+}
+
+/*LOCATIONS PAGE*/
+
+.locations__front {
+	padding: 0 35vw;
+}
+
+.bars {
+	padding: 50px 0;
+}
+
+.bars__item {
+	width: 23%;
+	margin: 0 1% 30px 0.2%;
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	text-align: left;
 }
 
 }

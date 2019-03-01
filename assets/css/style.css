@@ -81,7 +81,7 @@ ul {
 
 .featured__description {
 	position: relative;
-	background-color: #3DBED5;
+	background-color: #91B524;
 	text-align: center;
 	color: #fff;
 	padding: 10vh 10vw;
@@ -92,12 +92,18 @@ ul {
 	margin-top: 0;
 }
 
+.featured__description h4 {
+	text-transform: uppercase;
+	font-size: 1.1em;
+	margin-top: 0;
+}
+
 .featured__description-beerlink {
 	font-family: 'Lato', sans-serif;
 	font-weight: 900;
 	background-color: #fff;
 	padding: 5px 10px;
-	color: #3DBED5;
+	color: #91B524;
 	margin-top: 250px;
 	text-transform: uppercase;
 	font-size: 0.9em;
@@ -106,7 +112,7 @@ ul {
 .featured__description-beerlink span {
 	display: inline-block;
 	color: #fff;
-	background-color: #3DBED5;
+	background-color: #91B524;
 	padding: 2px 7px;
 	border-radius: 50%;
 	margin-left: 10px;
@@ -121,6 +127,10 @@ ul {
 
 .full-block {
 	padding: 10vh 0 15vh 0;
+}
+
+.section__title h2 {
+	text-transform: uppercase;
 }
 
 .section__title p {
@@ -325,6 +335,7 @@ input[type=submit] {
 
 .beer__item-description img {
 	width: 100%;
+	margin-top: 40px;
 }
 
 .beer__item-description span {
@@ -352,10 +363,10 @@ input[type=submit] {
 	text-align: center;
 	padding: 40px 10%;
 	position: absolute;
-	width: 90%;
-	top: 10%;
-	left: 5%;
-	height: 80%;
+	width: 95%;
+	top: 2%;
+	left: 2.5%;
+	height: 96%;
 	transition: 1s;
 }
 
@@ -376,7 +387,7 @@ input[type=submit] {
 }
 
 .beer_info_block p {
-	font-size: 0.85em;
+	font-size: 0.8em;
 	margin: 0;
 }
 
@@ -390,6 +401,11 @@ input[type=submit] {
 	margin: 0;
 }
 
+.beer_info-item img {
+	margin-top: 20px;
+	width: 50px;
+}
+
 .beer_info-item h2 {
 	font-size: 2.6em;
 	text-transform: uppercase;
@@ -401,7 +417,7 @@ input[type=submit] {
 
 .about__front {
 	position: relative;
-	height: 100vh;
+	/*height: 100vh;*/
 	background-color: #FAF8F2;
 	text-align: center;
 	padding: 0 10vw;
@@ -417,13 +433,14 @@ input[type=submit] {
 }
 
 .about__front p {
-	font-size: 0.9em;
+	font-size: 0.85em;
+	letter-spacing: 0.5px;
 }
 
 .about_front_slogan {
 	width: 40%;
 	display: inline-block;
-	margin-top: 30px;
+	margin: 30px 0;
 }
 
 .staff__title {
@@ -441,6 +458,7 @@ input[type=submit] {
 .staff__card {
 	background-color: #FAF8F2;
 	margin-bottom: 50px;
+	padding-bottom: 40px;
 }
 
 .staff__card-profile {
@@ -498,4 +516,54 @@ input[type=submit] {
 .rrss img {
 	width: 100%;
 	display: flex;
+}
+
+/*LOCATIONS PAGE*/
+
+.locations__front {
+	background-image: url('../images/locations-bkg.jpg');
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	color: #fff;
+	padding: 0 10vw;
+}
+
+.locations__front h2 {
+	text-transform: uppercase;
+	padding-top: 35vh;
+	font-size: 1.8em;
+}
+
+.locations__front p {
+	font-size: 0.9em;
+}
+
+.bars__item {
+	width: 90%;
+	margin: 0 auto 30px auto;
+	position: relative;
+	top: -60px;
+}
+
+.bars__item-local {
+	width: 100%;
+}
+
+.bars__item-text {
+	position: absolute;
+	bottom: 20px;
+	left: 10%;
+	color: #fff;
+}
+
+.bars__item-text h3,h4 {
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+}
+
+.bars__item-text img {
+	width: 20%;
 }
