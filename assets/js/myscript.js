@@ -31,7 +31,7 @@
 // }
 	var sectionOne = $('#section1').offset();
 	var sectionTwo = $('#section2').offset();
-	var position = $(window).scrollTop(); 
+	var position = $(window).scrollTop();
 
 	// should start at 0
 
@@ -40,7 +40,8 @@
 	    if( scroll > position ) {
 	        console.log('scrollDown');
 	        $('.menu__responsive').removeClass('menu__responsive-show');
-	        $('.menu__responsive').addClass('menu__responsive-hide')
+	        $('.menu__responsive').addClass('menu__responsive-hide');
+	        
 	    }
 
 	    if( scroll < position ) {
@@ -53,6 +54,50 @@
 	    // }
 	    position = scroll;
 	});
+
+	var x = window.matchMedia("(min-width: 1200px)")
+
+	function myFunction(x) {
+	  if (x.matches) { // If media query matches
+
+	  		var windowHeight = $( window ).height();
+	  		var position = $(window).scrollTop();
+	  		// SCROLL UP & DOWN
+		    $(window).scroll(function() {
+			    var scroll = $(window).scrollTop();
+			    if( scroll > position ) {
+			        $('.main_menu').addClass('main_menu-hide');
+			    }
+			    if( scroll < position ) {
+			    	$('.main_menu').removeClass('main_menu-hide');	        
+			    }
+			    // else {
+			    //      console.log('scrollUp');	         
+			    // }
+			    position = scroll;
+			});
+
+			$(window).scroll(function(){
+				if ( $(window).scrollTop() >= sectionTwo.top * 1 / 2) {
+			    	$('.main_menu').addClass('main_menu-white');
+			    	$('.main_menu-link').css('color', '#000');
+			    } else {
+			    	$('.main_menu').removeClass('main_menu-white');
+			    	$('.main_menu-link').css('color', '#fff');
+			    }
+
+			})
+
+			
+
+		    
+
+
+	  } 
+	}
+	
+	myFunction(x) // Call listener function at run time
+	x.addListener(myFunction) // Attach listener function on state changes
 
 
 // BEER POP UP

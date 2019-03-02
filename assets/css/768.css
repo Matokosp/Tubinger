@@ -316,6 +316,7 @@
 }
 
 .locations__front h2 {
+	margin: 0;
 	padding-top: 35vh;
 }
 
