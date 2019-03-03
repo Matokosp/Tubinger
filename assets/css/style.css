@@ -212,6 +212,10 @@ ul {
 	text-transform: uppercase;
 }
 
+.contact h3 {
+	color: #fff;
+}
+
 /*CONTACT FORM*/
 
 .contact__form {
