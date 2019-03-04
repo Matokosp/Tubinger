@@ -84,6 +84,7 @@
 			    } else {
 			    	$('.main_menu').removeClass('main_menu-white');
 			    	$('.main_menu-link').css('color', '#fff');
+			    	$('.main_menu').removeClass('main_menu-hide');	
 			    }
 
 			})
