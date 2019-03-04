@@ -405,6 +405,13 @@
 	vertical-align: top;
 }
 
+/*BEERS PAGE*/
+
+.beer_info_block p {
+    font-size: 1em;
+    margin: 0;
+}
+
 /*ABOUT PAGE*/
 
 .about__front {
