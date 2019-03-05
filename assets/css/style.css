@@ -571,3 +571,18 @@ input[type=submit] {
 .bars__item-text img {
 	width: 20%;
 }
+
+.locations {
+	text-align: center;
+	padding: 60px 5vw;
+	background-color: #FAF8F2;
+}
+
+.locations h2 {
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+.locations__block {
+	display: none;
+}
