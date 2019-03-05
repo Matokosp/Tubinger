@@ -147,6 +147,7 @@ ul {
 	text-transform: uppercase;
 	font-size: 0.8em;
 	letter-spacing: 1px;
+	cursor: pointer;
 }
 
 .white-text {
@@ -372,6 +373,7 @@ input[type=submit] {
 	left: 2.5%;
 	height: 96%;
 	transition: 1s;
+	cursor: pointer;
 }
 
 .beer-info-visible {
