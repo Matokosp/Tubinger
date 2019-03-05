@@ -81,18 +81,17 @@
 				if ( $(window).scrollTop() >= sectionTwo.top * 1 / 2) {
 			    	$('.main_menu').addClass('main_menu-white');
 			    	$('.main_menu-link').css('color', '#000');
+			    	$('.corner_logo').children('img:nth-child(1)').css('display', 'inline');
+			    	$('.corner_logo').children('img:nth-child(2)').css('display', 'none');
 			    } else {
 			    	$('.main_menu').removeClass('main_menu-white');
 			    	$('.main_menu-link').css('color', '#fff');
-			    	$('.main_menu').removeClass('main_menu-hide');	
+			    	$('.main_menu').removeClass('main_menu-hide');
+			    	$('.corner_logo').children('img:nth-child(1)').css('display', 'none');
+			    	$('.corner_logo').children('img:nth-child(2)').css('display', 'inline');
 			    }
 
-			})
-
-			
-
-		    
-
+			})	
 
 	  } 
 	}
