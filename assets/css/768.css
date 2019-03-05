@@ -346,13 +346,15 @@
 
 .locations__block {
 	text-align: center;
-	display: flex;
+	/*display: flex;*/
 	margin-top: 70px;
+	display: block;
 }
 
 .locations__block-item {
-	flex: 1;
-	margin: 0 5%;
+	/*flex: 1;*/
+	width: 20%;
+	margin: 30px auto;
 	position: relative;
 }
 
@@ -370,6 +372,8 @@
 }
 
 .list_button {
+	position: absolute;
+	right: 20px;
 	background-color: #fff;
 	color: #D31F26;
 	border-radius: 50%;
