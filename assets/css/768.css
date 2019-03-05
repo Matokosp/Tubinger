@@ -366,6 +366,7 @@
 	padding: 10px 10px;
 	border-radius: 2px;
 	z-index: 50;
+	cursor: pointer;
 }
 
 .list_button {
@@ -383,21 +384,18 @@
 }
 
 .locations__block-item-list {
-	position: absolute;
 	background-color: #e9e9e9;
 	width: 100%;
 	border-radius: 0 0 2px 2px;
 	transform: translateY(-50px);
 	visibility: hidden;
-	opacity: 0;
+	opacity: 1;
 	transition: all 0.5s ease-out;
-	z-index: 1;
 	display: none;
 }
 
 .locations__block-item-list-show {
 	display: block;
-	position: relative;
 	opacity: 1;
 	visibility: visible;
 	transform: translateY(0px);
