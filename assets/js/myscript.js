@@ -122,4 +122,12 @@
 		})
 	})
 
-	
+
+// LOCATIONS LIST DROPDOWN
+
+
+	$('.locations__block-item-title').on('click', function(e){
+		// e.stopPropagation();
+		$(this).siblings('.locations__block-item-list').toggleClass('locations__block-item-list-show');
+		$(this).children('.list_button').toggleClass('list_button-rotate');
+	})
