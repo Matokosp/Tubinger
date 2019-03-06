@@ -437,6 +437,13 @@
 	width: 49%;
 }
 
+.video__section-img {
+	display: inline-block;
+	width: 45%;
+	vertical-align: middle;
+	margin-left: 14%;
+}
+
 /*ABOUT PAGE*/
 
 .team h2 {
