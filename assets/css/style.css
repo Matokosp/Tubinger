@@ -138,6 +138,10 @@ ul {
 	letter-spacing: 0.5px;
 }
 
+.video__section-img {
+	display: none;
+}
+
 .link__button {
 	color: #fff;
 	background-color: #D31F26;

@@ -213,11 +213,20 @@
 
 .section__title {
 	width: 40%;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .section__title p {
 	margin-bottom: 45px;
 	letter-spacing: 0.5px;
+}
+
+.video__section-img {
+	display: inline-block;
+	width: 40%;
+	vertical-align: middle;
+	margin-left: 15%;
 }
 
 /*FOOTER*/
