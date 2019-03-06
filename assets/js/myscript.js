@@ -90,9 +90,7 @@
 			    	$('.corner_logo').children('img:nth-child(1)').css('display', 'none');
 			    	$('.corner_logo').children('img:nth-child(2)').css('display', 'inline');
 			    }
-
-			})	
-
+			})
 	  } 
 	}
 	
@@ -117,7 +115,6 @@
 				beerInfo.removeClass('beer-info-visible');
 				e.stopPropagation();
 			}
-
 		})
 	})
 
