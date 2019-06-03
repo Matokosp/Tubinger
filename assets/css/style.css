@@ -69,14 +69,14 @@ ul {
 }
 
 .featured__img-bkg {
-	width: 100%;
+	max-width: 100%;
 }
 
 .featured__img-beer {
 	width: 40%;
 	position: absolute;
 	top: -60px;
-	left: 30%;	
+	left: 30%;
 }
 
 .featured__description {
