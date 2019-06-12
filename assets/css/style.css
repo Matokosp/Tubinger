@@ -592,3 +592,13 @@ input[type=submit] {
 .locations__block {
 	display: none;
 }
+
+
+/* TIENDA SECTION */
+
+.tienda__landing {
+	color: #fff;
+	padding: 50vh 5vw 0 5vw;
+	text-transform: none;
+	font-size: 1rem;
+}

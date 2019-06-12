@@ -82,6 +82,13 @@
 	text-align: left;
 }
 
+.tienda__landing {
+	color: #fff;
+	padding: 70vh 25vw 0 25vw;
+	text-transform: none;
+	font-size: 2rem;
+}
+
 }
 
 @media (min-width: 992px) {
@@ -421,6 +428,13 @@
 	letter-spacing: 1px;
 	padding: 10px 0;
 	border-bottom: solid white 2px;
+}
+
+.tienda__landing {
+	color: #fff;
+	padding: 70vh 25vw 0 25vw;
+	text-transform: none;
+	font-size: 2rem;
 }
 
 }
